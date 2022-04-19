@@ -5,9 +5,43 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-left:100px;
+  margin-top:100px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+img {
+  height:100px;
+}
+
+.inputtodo{
+  margin-top:50px;
+}
+
+input {
+  margin-left:30px;
+}
+
+.displaycontainer {
+  margin-left:80px;
+  margin-top: 50px;
+}
+
+input[type=checkbox] {
+  margin-bottom: 20px;
+  margin-right:20px;
+}
+
+.x {
+  margin-left:80px;
+}
+
+
+input {
+  border-radius:30px;
+  border: 1px solid ; 
 }
