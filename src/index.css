@@ -43,5 +43,40 @@ input[type=checkbox] {
 
 input {
   border-radius:30px;
-  border: 1px solid ; 
+  border: 1px solid lightcoral;
+  margin-bottom:10px; 
+}
+
+button {
+  padding: 2px 15px;
+  border-radius: 30px;
+  margin-left: 20px;
+  background-color: lightcoral;
+  border:none;
+  color:white;
+}
+
+.todo-row {
+  margin-top:10px;
+  margin-left:30px;
+  width: fit-content;
+
+}
+
+.icons {
+  width: fit-content;
+  margin-left:20px;
+  margin-top:2px;
+  color:lightcoral;
+}
+
+.edit-icon{
+  color:#9edde8;
+}
+
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+
 }
